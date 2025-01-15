@@ -8,10 +8,18 @@
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.0.0",
+    "@skeletonlabs/skeleton": "^2.8.0",
+    "@skeletonlabs/tw-plugin": "^0.3.1",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "postcss-load-config": "^4.0.1",
     "rollup": "^2.79.1",
     "rollup-plugin-svelte": "^7.1.6",
     "rollup-plugin-css-only": "^4.3.0",
-    "svelte": "^4.2.7"
+    "rollup-plugin-postcss": "^4.0.2",
+    "svelte": "^4.2.7",
+    "svelte-preprocess": "^5.0.4",
+    "tailwindcss": "^3.3.5"
   },
   "dependencies": {
     "sirv-cli": "^2.0.0"
